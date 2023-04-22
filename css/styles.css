@@ -146,7 +146,23 @@ h1 {
   text-align: center;
 }
 
+.info-content2 p{
+  text-align: center;
+}
+
+.info-content3 p{
+  text-align: center;
+}
+
 .info-content1 span {
+  color: rgb(230, 54, 84);
+}
+
+.info-content2 span {
+  color: rgb(230, 54, 84);
+}
+
+.info-content3 span {
   color: rgb(230, 54, 84);
 }
 
@@ -687,13 +703,19 @@ h1 {
   }
 
   .portfolio .container1{
-    height: 590vh;
+    height: 150vw;
     display: flex;
     flex-direction: column-reverse;
+    padding:0;
   } 
 
   .portfolio .info-content1{
     height: 90vh;
+    width: 100%;
+  }
+
+  .portfolio .info-content3{
+    height: 20vh;
   }
 
   .portfolio .portfolio-heading{
@@ -715,6 +737,7 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     height: 700vh;
+    
   }
 
   .card{
@@ -735,7 +758,7 @@ h1 {
 
   .footer{
     width: 100vw;
-    height: 480px;
+    height: 380px;
     padding: 2em;
     text-align: center;
   }
@@ -780,11 +803,11 @@ h1 {
   }
 
   .main{
-    height: 150vh;
+    height: 120vh;
   }
 
   .wrapper{
-    height: 175vh;
+    height: 125vh;
   }
 
   .show-menu {
@@ -823,8 +846,8 @@ h1 {
   }
 
   .main img {
-    width: min(70%, 450px);
-    height: 650px;
+    width: min(100%, 450px);
+    height: 550px;
   }
 
   .about img{
@@ -868,17 +891,23 @@ h1 {
   }
 
   .portfolio .container1{
-    height: 590vh;
+    height: 895vh;
     display: flex;
     flex-direction: column-reverse;
   } 
 
-  .portfolio .info-content1{
-    height: 90vh;
+  .info-content2{
+    height: 10px;
   }
 
+  .info-content3{
+    height: 10px;
+    padding-top: 0;
+  }
+  
+
   .portfolio .portfolio-heading{
-    height: 1170vw;
+    height: 1130vw;
     padding:1em;
   }
 
